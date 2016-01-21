@@ -39,7 +39,7 @@ controlFlow.addValues = function(){
 // multiplyValues iterates through our originalArray, multiplies each value by 2, and adds them to our newArray. Follow the directions below to complete the challenge.
 controlFlow.multiplyValues = function(){
   var newArray = [];
-  // 1. finish the for loop below to iterate through the originalArray created on line 9
+  // 1. create for loop below to iterate through the originalArray created on line 9
     // 2. create a variable, multipliedByTwo and assign it to the the current value times 2 
     // 3. push each element inside to the newArray.
   // 4. return newArray
@@ -112,7 +112,7 @@ controlFlow.checkCity = function(){
   //1. create an if statement and have it check whether the city in originalObject is equal to Oakland
 
   // LESSON: you'll notice that we haven't created a 'state' variable for you. We now want you to get used to using return statements yourself. If you return inside of an 'if', it returns that value. You can also return inside of an 'else'. Each will ONLY return if condition is met.
-    // 2: if the condition passes, return 'I Love Oakland!'
+    // 2: if the condition passes, return 'I love Oakland!'
     // 3: else, return "which city am I in?"
 
 };
