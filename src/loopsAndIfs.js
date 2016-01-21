@@ -29,8 +29,8 @@ controlFlow.duplicateArray = function(){
 controlFlow.addValues = function(){
   var newArray = [];
   // 1. create a for loop below to iterate through the originalArray created on line 9
-    // 2. add 100 to each value and save it inside of the variable valuePlusOneHundred
-    // 3. without using push, add each element inside of arr inside of the newArray. *TIP* --> how do you add a value to the end of an array without using push? 
+    // 2. add 100 to each value and save the output inside of the variable valuePlusOneHundred
+    // 3. without using push, add each element to the newArray. *TIP* --> how do you add a value to the end of an array without using push? 
   // 4. return newArray
   return
 };
@@ -41,7 +41,7 @@ controlFlow.multiplyValues = function(){
   var newArray = [];
   // 1. finish the for loop below to iterate through the originalArray created on line 9
     // 2. multiply each value in originalArray by 2, and them into the variable multipliedValues
-    // 3. push each element inside of arr inside of the newArray.
+    // 3. push each element inside to the newArray.
   // 4. return newArray
   return
 };
