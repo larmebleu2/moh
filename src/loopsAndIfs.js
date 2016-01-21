@@ -49,7 +49,7 @@ controlFlow.multiplyValues = function(){
 // replaceValues iterates through the copyOfOriginalArray and REPLACES each value with 
 controlFlow.replaceValues = function(){
   // *DONT TOUCH* this creates a clean copy of an array look up array.slice() for more details
-  var copyOfOriginalArray = newArray.slice();
+  var copyOfOriginalArray = originalArray.slice();
 
   // 1. create a for loop and iterate trhough copyOfOriginalArray
   // 2. inside the for loop, replace each element with the string "element has been replaced"
@@ -61,7 +61,7 @@ controlFlow.replaceValues = function(){
 controlFlow.objectKeysToArray = function(){
   var newArray = [];
   // 1. create a for in loop below to go through the originalObject
-    // 2. add each value to the newArray
+    // 2. add each key to the newArray
   // 3. return newArray
   return 
 

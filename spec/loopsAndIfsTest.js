@@ -81,8 +81,8 @@
       it('should return a mystical animal object literal', function() {
         expect(typeof controlFlow.duplicateObject()).to.equal("object");
         expect(controlFlow.duplicateObject()['city']).to.equal("Oakland");
-        expect(controlFlow.objectValuesToArray()['slingsCode']).to.equal(true);
-        expect(controlFlow.objectValuesToArray()['excitementLevel']).to.equal(10);
+        expect(controlFlow.duplicateObject()['slingsCode']).to.equal(true);
+        expect(controlFlow.duplicateObject()['excitementLevel']).to.equal(10);
       });
     });
 
@@ -136,7 +136,7 @@
     describe('Contains Excitement', function() {
 
       it('should check to see if the integer 10 is a value in our originalObject', function() {
-        expect(controlFlow.containsExcitement()).to.equal('excitement');
+        expect(controlFlow.containsExcitement()).to.equal('excitementLevel');
       });
 
     });
