@@ -19,8 +19,8 @@
 // duplicateArray iterates through our originalArray and transfers the values to our newArray to our newArray. Follow the directions below to complete the challenge.
 controlFlow.duplicateArray = function(){
   var newArray = [];
-  // 1. create a for loop below to go through the originalArray created on line 9
-   // 2. push each element inside of arr inside of the newArray.
+  // 1. create a for loop below to go iterate through the originalArray created on line 9
+    // 2. push each element inside of arr inside of the newArray.
   // 3. return newArray
   return
 };
@@ -39,9 +39,9 @@ controlFlow.addValues = function(){
 // multiplyValues iterates through our originalArray, multiplies each value by 2, and adds them to our newArray. Follow the directions below to complete the challenge.
 controlFlow.multiplyValues = function(){
   var newArray = [];
-  // 1. create for loop below to iterate through the originalArray created on line 9
+  // 1. create a for loop below to iterate through the originalArray created on line 9
     // 2. create a variable, multipliedByTwo and assign it to the the current value times 2 
-    // 3. push each element inside to the newArray.
+    // 3. push each element inside the newArray.
   // 4. return newArray
   return
 };

@@ -142,7 +142,7 @@
     });
 
     describe('Contains Oakland', function() {
-      it('should check to see if the integer 10 is a value in our originalObject', function() {
+      it('should check to see if a value that starts with \'O\' in our originalObject', function() {
         expect(controlFlow.containsAndAdd().length).to.equal(2);
         expect(controlFlow.containsAndAdd()[0]).to.equal('city');
         expect(controlFlow.containsAndAdd()[1]).to.equal('Oakland');
